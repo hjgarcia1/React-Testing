@@ -8,6 +8,7 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import Loops from './components/Loops';
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
 
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent></ParentComponent> */}
-        <UserGreeting></UserGreeting>
+        {/* <UserGreeting></UserGreeting> */}
+
+        <Loops></Loops>
+
       </header>
     </div>
   );
